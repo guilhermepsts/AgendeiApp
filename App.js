@@ -4,7 +4,7 @@ import Loading from "../agendei-mobile/src/screens/loading/loading.jsx";
 
 function App() {
   return (
-    <Loading/>
+    <Account/>
   );
 };
 
