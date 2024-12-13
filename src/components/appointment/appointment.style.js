@@ -7,7 +7,9 @@ export const styles = {
         backgroundColor: COLORS.white,
         padding: 12,
         borderWidth: 1,
-        borderColor: COLORS.gray4
+        borderColor: COLORS.gray4,
+        borderRadius: 10,
+        marginTop: 10
     },
 
     title: {
@@ -36,14 +38,24 @@ export const styles = {
     bookingHour:{
         fontSize: FONT_SIZE.sm,
         color: COLORS.gray3,
-        marginTop:3 
+        marginTop: 5 
     },
 
     booking: {
         flexDirection: "row",
+        marginBottom: 2
 
     },
 
-    containerBooking:{
+    containerBooking: {
+        flex: 1
+    },
+
+    container:{
+        flexDirection: "row"
+    },
+
+    containerButton: {
+        marginTop: 5
     }
 }

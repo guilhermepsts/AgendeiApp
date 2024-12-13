@@ -16,7 +16,6 @@ function Appointment(props) {
                     <Image style={styles.icon} source={icon.calendar}/>
                     <Text style={styles.bookingDate}>15/10/2024</Text>
                 </View>
-
                 <View style={styles.booking}>
                     <Image style={styles.icon} source={icon.clock}/>
                     <Text style={styles.bookingDate}>09h00</Text>
